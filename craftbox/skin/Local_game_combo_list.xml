@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="260,180">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<Default name="VScrollBar" value="width=&quot;10&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbhotimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,0,1,1' &quot; thumbdisabledimage=&quot;file='scroll.png' source='0,0,1,1' &quot;"/>
+	<HorizontalLayout bkcolor="#FF2b2b2b">
+		<List name="local_game_combo_list" padding="6,5,7,6" bkcolor="#FF2b2b2b" menu="false" vscrollbar="true" itemalign="center" itemendellipsis="true" itembkcolor="#FF3d3d3d" itemselectedbkcolor="#FF343434" itemhotbkcolor="#FF343434">
+			<ListHeader pos="0,0,0,1" sepwidth="2" sepimm="true"/>
+		</List>
+	</HorizontalLayout>
+</Window>
+

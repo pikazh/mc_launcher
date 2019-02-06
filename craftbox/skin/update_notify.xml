@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="400,320">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<Default name="VScrollBar" value="width=&quot;10&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbhotimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,0,1,1' &quot; thumbdisabledimage=&quot;file='scroll.png' source='0,0,1,1' &quot;"/>
+	<VerticalLayout bkcolor="#FFFAFAFA" bordercolor="#FF768D9B" bordersize="1" inset="1,10,1,1">
+		<Button name="Close" pos="370,15,386,31" float="true" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+		<HorizontalLayout pos="0,0,0,30" padding="0,0,200,0">
+			<Label padding="20,0,0,0" pos="0,0,80,0" text="升级提示" font="0" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<Label pos="0,0,0,1" padding="0,7,0,0" bkcolor="#FFE1E1E2"/>
+		<VerticalLayout pos="0,0,0,200" padding="20,10,0,0" childvalign="vcenter" >
+			<Label name="tips" font="1" textcolor="#FF333333"/>
+			<Label text="更新内容：" font="1" textcolor="#FF666666"/>
+			<RichEdit name="note_edit" pos="0,0,360,150" wantreturn="true" rich="true" vscrollbar="true" textpadding="5,0,5,0" bordersize="1" bordercolor="#FFE1E1E2" multiline="true" readonly="true" font="1" textcolor="#FF333333"/>
+		</VerticalLayout>
+		<HorizontalLayout pos="0,0,0,60" childpadding="5" childalign="right" childvalign="vcenter">
+			<Button name="ok" padding="300,0,0,0" pos="0,0,80,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="我知道了" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

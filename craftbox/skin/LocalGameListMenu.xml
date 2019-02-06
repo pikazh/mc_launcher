@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="160,267">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<HorizontalLayout bkcolor="#FFFAFAFC">
+		<List padding="0,6,0,0" bkcolor="#FFFAFAFC" itemselectedbkcolor="#FFEDEDEF" itemhotbkcolor="#FFEDEDEF" itemdisabledbkcolor="#FFEDEDEF">
+			<ListHeader pos="0,0,0,1" sepwidth="2" sepimm="true"/>
+			<ListContainerElement name="open_dir" pos="0,0,0,36">
+				<HorizontalLayout inset="36,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label text="打开游戏目录" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="open_res_dir" pos="0,0,0,36">
+				<HorizontalLayout inset="36,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label text="打开材质包目录" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="open_saves_dir" pos="0,0,0,36">
+				<HorizontalLayout inset="36,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label text="打开地图目录" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="open_mods_dir" pos="0,0,0,36">
+				<HorizontalLayout inset="36,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label text="打开模组目录" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="open_shader_dir" pos="0,0,0,36">
+				<HorizontalLayout inset="36,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label text="打开光影目录" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="remove" pos="0,0,0,36">
+				<HorizontalLayout inset="10,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label pos="0,0,16,16" bkimage="delete_hover.png" mouse="false"/>
+					<Label text="从列表中移除" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="remove_all" pos="0,0,0,36">
+				<HorizontalLayout inset="10,0,0,0" childvalign="vcenter" childpadding="10">
+					<Label pos="0,0,16,16" bkimage="delete_hover.png" mouse="false"/>
+					<Label text="清空列表" mouse="false" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</ListContainerElement>
+		</List>
+	</HorizontalLayout>
+</Window>
+

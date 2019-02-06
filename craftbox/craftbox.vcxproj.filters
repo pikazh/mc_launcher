@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalGameComboMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaEnvironment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaComboMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadConfirmWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalGameRecordPersistence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellNotifyIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftDownloadRecordPersistence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftUserIdentityFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilPersistence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowEdge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShadowWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AppUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftBoxPageEventHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalGameListContainerElementUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowFinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftLauncher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAcountPersistence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxUserInfoRequest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyNoteWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OfficialMinecraftDownloadItemController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationVersionManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationDownloadItemController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitConfirmWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaRecordPersistence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxUserInfoManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserJoinedServerInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateSuccessNotifyWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftProcessInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleDataCallback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftBoxTokenFetcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationDownloadRecordPersistence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WebPageWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftBoxHelperStuff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCrashReportWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftBoxUserJoinServerInfos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultServerList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalGameRecordPersistence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalGameComboMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaComboMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadConfirmWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellNotifyIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftDownloadRecordPersistence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftUserIdentityFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilPersistence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowEdge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShadowWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AppUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftBoxPageEventHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalGameListContainerElementUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowFinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftLauncher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAcountPersistence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxUserInfoRequest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyNoteWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadingItemController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficialMinecraftDownloadItemController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntergrationVersionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntergrationDownloadItemController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitConfirmWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaRecordPersistence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxUserInfoManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserJoinedServerInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateSuccessNotifyWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftProcessInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleDataCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftBoxTokenFetcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntergrationDownloadRecordPersistence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WebPageWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftBoxHelperStuff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCrashReportWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftBoxUserJoinServerInfos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultServerList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="craftbox.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\logo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\java_checker.jar" />
+    <None Include="resources\asm-5.1.jar" />
+    <None Include="resources\MCVersionDetect.jar" />
+    <None Include="resources\7z.exe" />
+    <None Include="resources\7z.dll" />
+    <None Include="skin\skin.zip" />
+    <None Include="resources\craftboxhelper.7z" />
+    <None Include="resources\mccrack.7z" />
+    <None Include="resources\CraftBoxHelperMod.7z" />
+    <None Include="resources\MinecraftServerList.7z" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\dl_success.mp3" />
+    <Media Include="resources\dl_failed.mp3" />
+  </ItemGroup>
+</Project>

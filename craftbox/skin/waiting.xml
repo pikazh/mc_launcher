@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="500,110" showdirty="false">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<Font id="3" name="微软雅黑" size="12" underline="true"/>
+	<Font id="4" name="微软雅黑" size="11"/>
+	<HorizontalLayout pos="0,0,120,110" childvalign="vcenter" bkcolor="#FF3DA8CA" childpadding="20">
+		<GifAnim padding="10,0,0,0" bkimage="chick.gif" autosize="true" pos="0,0,94,105" />
+		<TabLayout name="game_account_type_pages">
+			<VerticalLayout childvalign="vcenter" padding="0,40,0,0" childalign="center">
+				<Label pos="0,0,0,30" text="正在初始化游戏..." align="center" font="1" textcolor="#FFFFFFFF"/>
+			</VerticalLayout>
+			<VerticalLayout childvalign="vcenter" padding="0,20,0,0" childalign="center" childpadding="10">
+				<Label pos="0,0,0,30" text="正在下载缺失文件: sfdsfsdf" font="1" align="center" textcolor="#FFFFFFFF"/>
+				<Progress name="file_download_progress" pos="0,0,400,20" bordercolor="#FFE1E1E2" bordersize="1" text="text" valign="vcenter" align="center" font="1" textcolor="#FF666666" value="40" foreimage="progress_fore.png"/>
+			</VerticalLayout>
+		</TabLayout>
+	</HorizontalLayout>
+</Window>
+

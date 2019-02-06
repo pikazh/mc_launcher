@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="800,600">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<ListContainerElement pos="0,0,0,30">
+		<HorizontalLayout childvalign="vcenter">
+			<Label name="name" pos="0,0,400,0" textpadding="5,0,0,0" font="1" textcolor="#FF333333"/>
+			<Label name="progress" pos="0,0,300,0" font="1" textcolor="#FF333333" align="center" />
+			<HorizontalLayout pos="0,0,0,16" childvalign="vcenter" childalign="center">
+				<HorizontalLayout />
+				<HorizontalLayout  childvalign="vcenter" childalign="center" childpadding="5">
+					<Button name="retry_download" pos="0,0,16,16"  tooltip="重试" font="1" textcolor="#FF666666" normalimage="retry_normal.png" hotimage="retry_hover.png" pushedimage="retry_hover.png"/>
+					<Button name="pause_download" pos="0,0,16,16"   tooltip="暂停下载" font="1" textcolor="#FF666666" normalimage="pause_normal.png" hotimage="pause_hover.png" pushedimage="pause_hover.png"/>
+					<Button name="start_download" pos="0,0,16,16"  tooltip="继续下载" font="1" textcolor="#FF666666" normalimage="launch_normal.png" hotimage="launch_hover.png" pushedimage="launch_hover.png"/>
+					<Button name="cancel_download" pos="0,0,16,16"   tooltip="取消下载" font="1" textcolor="#FF666666" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+				</HorizontalLayout>
+				<HorizontalLayout />
+			</HorizontalLayout >
+		</HorizontalLayout >
+	</ListContainerElement>
+</Window>
+

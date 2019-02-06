@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="800,600">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<ListContainerElement pos="0,0,0,30">
+		<HorizontalLayout >
+			<HorizontalLayout pos="0,0,500,0">
+				<VerticalLayout >
+					<HorizontalLayout inset="0,0,5,0">
+						<Label name="version" padding="5,0,0,0" font="1" textcolor="#FF333333"/>
+					</HorizontalLayout>
+				</VerticalLayout >
+			</HorizontalLayout>
+			<HorizontalLayout >
+				<HorizontalLayout >
+					<VerticalLayout />
+					<VerticalLayout >
+						<VerticalLayout />
+						<HorizontalLayout pos="0,0,0,16" padding="20,0,0,0">
+							<Button name="download" pos="0,0,16,16" padding="0,0,5,0" tooltip="下载" font="1" textcolor="#FF666666" normalimage="dl_normal.png" hotimage="dl_hover.png" pushedimage="dl_hover.png"/>
+						</HorizontalLayout>
+						<VerticalLayout />
+					</VerticalLayout >
+					<VerticalLayout />
+				</HorizontalLayout >
+			</HorizontalLayout >
+		</HorizontalLayout >
+	</ListContainerElement>
+</Window>
+

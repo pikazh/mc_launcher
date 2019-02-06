@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="1200,802" caption="0,0,0,30" showdirty="false">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<Font id="3" name="微软雅黑" size="12" underline="true"/>
+	<Font id="4" name="微软雅黑" size="11"/>
+	<Default name="VScrollBar" value="width=&quot;10&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbhotimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,0,1,1' &quot; thumbdisabledimage=&quot;file='scroll.png' source='0,0,1,1' &quot;"/>
+	<HorizontalLayout bkcolor="#FFFAFAFA" bordercolor="#FF0d9cc1" bordersize="1" inset="1,1,1,1">
+		<VerticalLayout pos="0,0,228,0" bkimage="left_bg.png">
+			<VerticalLayout childalign="center" padding="19,19,0,0"  pos="0,0,196,51">
+				<Label bkimage="logo.png" pos="0,0,196,51"/>
+			</VerticalLayout>
+			<VerticalLayout padding="0,46,0,0" pos="0,0,0,140" childvalign="vcenter" childalign="center" childpadding="16">
+				<Button name="user_head" pos="0,0,100,100" bkimage="default_header.png" tooltip="进入用户中心" bordersize="2"/>
+				<Button name="login" font="1" text="登录 / 注册" tooltip="进入用户中心" textcolor="#FFFFFFFF"/>
+			</VerticalLayout >
+			<VerticalLayout padding="1,49,0,0" pos="0,0,0,216" childvalign="vcenter" childpadding="16">
+				<Option name="main_page" text="盒子首页" font="1" textcolor="#FF919191" hottextcolor="#FFc8c8c8" selectedtextcolor="#FFFFFFFF" pos="0,0,227,26" group="true"  selected="true" normalimage="file='front_page_normal.png' source='0,0,85,26' dest='0,0,85,26' fade=''" hotimage="file='front_page_hover.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedimage="file='front_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedhotimage="file='front_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''"/>
+				<Option name="client_page" text="客户端" font="1" textcolor="#FF919191" hottextcolor="#FFc8c8c8" selectedtextcolor="#FFFFFFFF" pos="0,0,227,26" group="true" normalimage="file='client_page_normal.png' source='0,0,85,26' dest='0,0,85,26' fade=''" hotimage="file='client_page_hover.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedimage="file='client_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedhotimage="file='client_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''"/>
+				<Option name="server_page" text="服务器" font="1" textcolor="#FF919191" hottextcolor="#FFc8c8c8" selectedtextcolor="#FFFFFFFF" pos="0,0,227,26" group="true" normalimage="file='server_page_normal.png' source='0,0,85,26' dest='0,0,85,26' fade=''" hotimage="file='server_page_hover.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedimage="file='server_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedhotimage="file='server_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''"/>
+				<Option name="download_page" text="下载中心" font="1" textcolor="#FF919191" hottextcolor="#FFc8c8c8" selectedtextcolor="#FFFFFFFF" pos="0,0,227,26" group="true" normalimage="file='dl_page_normal.png' source='0,0,85,26' dest='0,0,85,26' fade=''" hotimage="file='dl_page_hover.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedimage="file='dl_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''" selectedhotimage="file='dl_page_clicked.png' source='0,0,85,26' dest='0,0,85,26' fade=''"/>
+				<GifAnim bkimage="Arrow_Animation.gif" pos="0,0,16,16" padding="90,-33,0,0" name="downloading_ani" autoplay="false" autosize="false"/>
+			</VerticalLayout>
+			<VerticalLayout padding="0,89,0,0" pos="0,0,0,20" childvalign="vcenter" childalign="center">
+				<Button pos="0,0,194,22" name="select_game_btn" font="1" align="left" textcolor="#FF666666" endellipsis="true" textpadding="5,0,25,0" bkcolor="#FF4d4d4d" hotbkcolor="#FF4d4d4d" pushedbkcolor="#FF4d4d4d" textcolor="#FFFFFFFF" normalimage="file='arrow.png' dest='177,5,190,15' fade=''" hotimage="file='arrow.png' dest='177,5,190,15' fade=''" pushedimage="file='arrow.png' dest='177,5,190,15' fade=''"/>
+			</VerticalLayout>
+			<HorizontalLayout padding="17,28,0,0" childvalign="vcenter" childalign="center" childpadding="4" pos="0,0,0,61">
+				<Button pos="0,0,152,61" name="game_launcher" normalimage="file='launch_game_normal.png' fade=''" hotimage="file='launch_game_hover.png' fade=''" pushedimage="file='launch_game_clicked.png' fade=''"/>
+				<Button pos="0,0,39,61" name="setting" normalimage="file='config_normal.png' fade=''" hotimage="file='config_hover.png' fade=''" pushedimage="file='config_clicked.png' fade=''"/>
+			</HorizontalLayout>
+			<VerticalLayout padding="0,26,0,0" childvalign="vcenter" childalign="center" childpadding="4">
+				<Label text="从此开始———崭新的世界" textcolor="#FFFFFFFF" font="4" pos="0,0,140,18"/>
+				<Label bkimage="under_line.png" pos="0,0,211,2"/>
+				<Label name="product_version" pos="0,0,50,18" font="4" textcolor="#FFFFFFFF"/>
+			</VerticalLayout >
+		</VerticalLayout>
+		<VerticalLayout>
+			<HorizontalLayout pos="0,0,0,40">
+				<HorizontalLayout name="webnavigator_layout" pos="0,0,800,40" padding="10,0,0,0" childvalign="vcenter">
+					<Button name="backward_btn" pos="0,0,40,40" normalimage="backward_normal.png" hotimage="backward_hover.png" pushedimage="backward_clicked.png" disabledimage="backward_disabled.png" tooltip="后退"/>
+					<Button name="forward_btn" pos="0,0,40,40" normalimage="forward_normal.png" hotimage="forward_hover.png" pushedimage="forward_clicked.png" disabledimage="forward_disabled.png" tooltip="前进"/>
+					<Button name="refresh_btn" pos="0,0,40,40" normalimage="refresh_normal.png" hotimage="refresh_hover.png" pushedimage="refresh_clicked.png" tooltip="刷新"/>
+					<Edit name="search_server_edit" padding="140,0,0,0" pos="0,0,360,26" nativebkcolor="#FFE1E1E2" bkcolor="#FFE1E1E2" font="1" textcolor="#FF333333"/>
+					<Button pos="0,0,20,26" name="search_server_btn"  normalimage="file='search.png' fade=''" hotimage="file='search.png' fade=''" pushedimage="file='search.png' fade=''"/>
+				</HorizontalLayout>
+				<HorizontalLayout />
+				<HorizontalLayout pos="0,0,140,40" childvalign="top">
+					<Button name="feedback" pos="0,0,60,40" text="意见反馈" font="4" textcolor="#FF858585" hottextcolor="#FF2b2b2b" pushedtextcolor="#FF2b2b2b" focusedtextcolor="#FF2b2b2b"/>
+					<Button name="min" tooltip="最小化" pos="0,0,40,40" normalimage="min_normal.png" hotimage="min_hover.png" pushedimage="min_clicked.png"/>
+					<Button name="close" tooltip="关闭" pos="0,0,40,40" normalimage="close_normal.png" hotimage="close_hover.png" pushedimage="close_clicked.png"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+			<TabLayout name="pages" selectedid="0">
+				<WebBrowser name="main_page_wb" />
+				<VerticalLayout padding="30,0,30,0">
+					<HorizontalLayout pos="0,0,0,30" inset="1,1,1,1" childvalign="vcenter" childalign="center">
+						<HorizontalLayout />
+						<HorizontalLayout pos="0,0,300,30" childpadding="20" childvalign="vcenter" childalign="center">
+							<Button pos="0,0,80,30" name="local_game_tab_button" text="本地游戏" font="2" textcolor="#FF333333" hottextcolor="#FF3DA8CA" pushedtextcolor="#FF3DA8CA" focusedtextcolor="#FF3DA8CA"/>
+							<Button pos="0,0,80,30" name="intergrate_game_tab_button" text="整合下载" font="2" textcolor="#FF333333" hottextcolor="#FF3DA8CA" pushedtextcolor="#FF3DA8CA" focusedtextcolor="#FF3DA8CA"/>
+							<Button pos="0,0,80,30" name="official_game_tab_button" text="原版下载" font="2" textcolor="#FF333333" hottextcolor="#FF3DA8CA" pushedtextcolor="#FF3DA8CA" focusedtextcolor="#FF3DA8CA"/>
+						</HorizontalLayout >
+						<HorizontalLayout />
+					</HorizontalLayout>
+					<Label pos="0,0,0,1" bkcolor="#FFE1E1E2" font="0"/>
+					<HorizontalLayout pos="0,0,0,2" padding="0,-2,0,0">
+						<HorizontalLayout />
+						<HorizontalLayout pos="0,0,300, 0" childpadding="20">
+							<Label pos="0,0,80,0" name="local_game_tab_underground" bkcolor="#FF3DA8CA"/>
+							<Label pos="0,0,80,0" name="intergrate_game_tab_underground" bkcolor="#FF3DA8CA"/>
+							<Label pos="0,0,80,0" name="official_game_tab_underground" bkcolor="#FF3DA8CA"/>
+						</HorizontalLayout >
+						<HorizontalLayout />
+					</HorizontalLayout>
+					<HorizontalLayout pos="0,0,0,45" childvalign="vcenter">
+						<Button name="searchgame" pos="0,0,98,26" padding="0,0,0,8" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordercolor="#FFE1E1E2" bordersize="1" text="添加本地游戏" font="1" textcolor="#FF333333" textpadding="15,0,0,0" normalimage="file='add_normal.png' dest='5,5,21,21' fade=''" hotimage="file='add_hover.png' dest='5,5,21,21' fade=''" pushedimage="file='add_hover.png' dest='5,5,21,21' fade=''"/>
+						<GifAnim bkimage="valid_onload.gif" padding="10,0,0,0" name="search_game_ani" autoplay="false" autosize="true"/>
+						<Label name="search_game_tips" padding="3,0,0,0" font="1" textcolor="#FF333333"/>
+						<Label name="download_game_tips" visible="false" font="1" textcolor="#FF666666"/>
+						<Button name="external_dl_btn" padding="10,0,0,0" pos="0,0,120,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="通过百度网盘下载" font="1" textcolor="#FF333333"/>
+						<Option name="only_show_release_type" font="1" textcolor="#FF333333" padding="350, 0, 0, 0" textpadding="20,0,0,0" pos="0,0,95,16" text="只显示正式版" normalimage="file='checkbox_unselect.png' dest='0,0,16,16' fade=''" selectedimage="file='checkbox_select.png' dest='0,0,16,16' fade=''"/>
+					</HorizontalLayout>
+					<TabLayout name="game_list" selectedid="0">
+						<List name="local_game_list" bkcolor="#FFFAFAFA" menu="true" vscrollbar="true" itemalign="center" itemendellipsis="true" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6">
+							<ListHeader pos="0,0,0,30" sepwidth="2" sepimm="true">
+								<ListHeaderItem pos="0,0,200,0" bordercolor="#FFE1E1E2" bordersize="1" text="名字" dragable="false" textcolor="#FF666666" textpadding="0,0,0,0"/>
+								<ListHeaderItem pos="0,0,500,0" padding="-1,0,0,0" bordercolor="#FFE1E1E2" bordersize="1" text="路径" dragable="false" textcolor="#FF666666" textpadding="0,0,0,0"/>
+								<ListHeaderItem bordercolor="#FFE1E1E2" padding="-1,0,0,0" bordersize="1" text="操作" dragable="false" textcolor="#FF666666" textpadding="0,0,0,0"/>
+							</ListHeader>
+						</List>
+						<List name="intergrate_game_list" bkcolor="#FFFAFAFA" visible="false" menu="true" vscrollbar="true" header="false" itemalign="center" itemendellipsis="true" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6">
+							<ListHeader pos="0,0,0,30" sepwidth="2" sepimm="true">
+								<ListHeaderItem pos="0,0,600,0" bordercolor="#FFE1E1E2" bordersize="1" text="版本" dragable="false" textcolor="#FF666666" />
+								<ListHeaderItem bordercolor="#FFE1E1E2" padding="-1,0,0,0" bordersize="1" text="操作" dragable="false" textcolor="#FF666666"/>
+							</ListHeader>
+						</List>
+						<List name="official_game_list" bkcolor="#FFFAFAFA" visible="false" menu="true" vscrollbar="true" header="false" itemalign="center" itemendellipsis="true" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6">
+							<ListHeader pos="0,0,0,30" sepwidth="2" sepimm="true">
+								<ListHeaderItem pos="0,0,300,0" bordercolor="#FFE1E1E2" bordersize="1" text="版本" dragable="false" textcolor="#FF666666" />
+								<ListHeaderItem pos="0,0,200,0" padding="-1,0,0,0" bordercolor="#FFE1E1E2" bordersize="1" text="发布时间" dragable="false" textcolor="#FF666666" />
+								<ListHeaderItem pos="0,0,200,0" padding="-1,0,0,0" bordercolor="#FFE1E1E2" bordersize="1" text="类型" dragable="false" textcolor="#FF666666" />
+								<ListHeaderItem bordercolor="#FFE1E1E2" padding="-1,0,0,0" bordersize="1" text="操作" dragable="false" textcolor="#FF666666"/>
+							</ListHeader>
+						</List>
+					</TabLayout>
+				</VerticalLayout>
+				<WebBrowser name="server_page_wb" />
+				<VerticalLayout padding="30,0,30,0">
+					<HorizontalLayout pos="0,0,0,30" inset="1,1,1,1">
+						<HorizontalLayout />
+						<HorizontalLayout >
+							<Button name="downloading_tab_button" text="正在下载" font="2" textcolor="#FF333333" hottextcolor="#FF3DA8CA" pushedtextcolor="#FF3DA8CA" focusedtextcolor="#FF3DA8CA"/>
+							<Button name="downloaded_tab_button" text="已下载" font="2" textcolor="#FF333333" hottextcolor="#FF3DA8CA" pushedtextcolor="#FF3DA8CA" focusedtextcolor="#FF3DA8CA"/>
+						</HorizontalLayout >
+						<HorizontalLayout />
+					</HorizontalLayout>
+					<Label pos="0,0,0,1" bkcolor="#FFE1E1E2" font="0"/>
+					<HorizontalLayout pos="0,0,0,2" padding="0,-2,0,0">
+						<HorizontalLayout />
+						<HorizontalLayout >
+							<Label name="downloading_tab_underground" padding="10,0,0,0" bkcolor="#FF3DA8CA"/>
+							<Label pos="0,0,20,0"/>
+							<Label name="downloaded_tab_underground" padding="0,0,5,0" bkcolor="#FF3DA8CA"/>
+						</HorizontalLayout >
+						<HorizontalLayout />
+					</HorizontalLayout>
+					<HorizontalLayout pos="0,0,0,45" childvalign="vcenter">
+						<Label name="downloading_game_tips" text="提示：游戏下载成功后，会自动添加到本地游戏列表" font="1" textcolor="#FF666666"/>
+					</HorizontalLayout>
+					<TabLayout name="download_tab_layout" selectedid="0">
+						<List name="donwloading_list" bkcolor="#FFFAFAFA" menu="true" vscrollbar="true" itemalign="center" itemendellipsis="true" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6">
+							<ListHeader pos="0,0,0,30" sepwidth="2" sepimm="true">
+								<ListHeaderItem pos="0,0,400,0" bordercolor="#FFE1E1E2" bordersize="1" text="版本" dragable="false" textcolor="#FF666666" />
+								<ListHeaderItem pos="0,0,300,0" bordercolor="#FFE1E1E2" padding="-1,0,0,0" bordersize="1" text="进度" dragable="false" textcolor="#FF666666" />
+								<ListHeaderItem bordercolor="#FFE1E1E2" bordersize="1" padding="-1,0,0,0" text="操作" dragable="false" textcolor="#FF666666" />
+							</ListHeader>
+						</List>
+						<List name="downloaded_list" bkcolor="#FFFAFAFA" visible="false" menu="true" vscrollbar="true" header="false" itemalign="center" itemendellipsis="true" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6">
+							<ListHeader pos="0,0,0,30" sepwidth="2" sepimm="true">
+								<ListHeaderItem pos="0,0,700,0" bordercolor="#FFE1E1E2" bordersize="1" text="版本" dragable="false" textcolor="#FF666666" textpadding="0,0,0,0"/>
+								<ListHeaderItem bordercolor="#FFE1E1E2" padding="-1,0,0,0" bordersize="1" text="操作" dragable="false" textcolor="#FF666666"/>
+							</ListHeader>
+						</List>
+					</TabLayout>
+				</VerticalLayout >
+				<WebBrowser name="user_page_wb" />
+			</TabLayout>
+		</VerticalLayout >
+	</HorizontalLayout>
+</Window>
+

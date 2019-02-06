@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="800,600">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+<ListContainerElement  pos="0,0,0,24">
+	<Label name="version" font="1" textcolor="#FFFFFFFF"/>
+</ListContainerElement>

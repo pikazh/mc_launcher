@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MinecraftServerList">
+    <output-path>$PROJECT_DIR$/out/artifacts/MinecraftServerList</output-path>
+    <root id="archive" name="MinecraftServerList.jar">
+      <element id="module-output" name="MinecraftServerList" />
+    </root>
+  </artifact>
+</component>

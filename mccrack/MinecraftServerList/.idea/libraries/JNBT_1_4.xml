@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JNBT_1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JNBT_1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/JNBT_1.4.jar!/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/JNBT_1.4.jar!/" />
+    </SOURCES>
+  </library>
+</component>

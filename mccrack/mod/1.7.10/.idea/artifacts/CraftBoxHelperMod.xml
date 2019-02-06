@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CraftBoxHelperMod">
+    <output-path>$PROJECT_DIR$/out/artifacts/CraftBoxHelperMod</output-path>
+    <root id="archive" name="CraftBoxHelperMod.jar">
+      <element id="module-output" name="1.7.10" />
+    </root>
+  </artifact>
+</component>

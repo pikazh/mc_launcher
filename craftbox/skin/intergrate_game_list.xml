@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="800,600">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<ListContainerElement pos="0,0,0,45">
+		<HorizontalLayout childvalign="vcenter">
+			<Label name="name" pos="0,0,600,0" textpadding="5,0,0,0" font="1" textcolor="#FF333333"/>
+			<HorizontalLayout pos="0,0,0,16" childvalign="vcenter" childalign="center">
+				<HorizontalLayout />
+				<Button name="download" pos="0,0,16,16" tooltip="下载" font="1" textcolor="#FF666666" normalimage="dl_normal.png" hotimage="dl_hover.png" pushedimage="dl_hover.png"/>
+				<HorizontalLayout />
+			</HorizontalLayout>
+		</HorizontalLayout >
+	</ListContainerElement>
+</Window>
+

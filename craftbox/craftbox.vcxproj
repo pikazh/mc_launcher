@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppConfig.cpp" />
+    <ClCompile Include="AppUpdate.cpp" />
+    <ClCompile Include="BaseShadowWindow.cpp" />
+    <ClCompile Include="BaseWindow.cpp" />
+    <ClCompile Include="BoxUserInfoManager.cpp" />
+    <ClCompile Include="BoxUserInfoRequest.cpp" />
+    <ClCompile Include="ConfigWindow.cpp" />
+    <ClCompile Include="CraftBoxHelperStuff.cpp" />
+    <ClCompile Include="CraftBoxTokenFetcher.cpp" />
+    <ClCompile Include="CraftBoxUserJoinServerInfos.cpp" />
+    <ClCompile Include="DefaultServerList.cpp" />
+    <ClCompile Include="DownloadConfirmWnd.cpp" />
+    <ClCompile Include="GameCrashReportWnd.cpp" />
+    <ClCompile Include="HandleDataCallback.cpp" />
+    <ClCompile Include="IntergrationDownloadItemController.cpp" />
+    <ClCompile Include="IntergrationDownloadRecordPersistence.cpp" />
+    <ClCompile Include="IntergrationVersionManager.cpp" />
+    <ClCompile Include="JavaComboMenu.cpp" />
+    <ClCompile Include="JavaEnvironment.cpp" />
+    <ClCompile Include="JavaRecordPersistence.cpp" />
+    <ClCompile Include="LoadingWnd.cpp" />
+    <ClCompile Include="LocalGameComboMenu.cpp" />
+    <ClCompile Include="LocalGameListContainerElementUI.cpp" />
+    <ClCompile Include="LocalGameRecordPersistence.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWnd.cpp" />
+    <ClCompile Include="MenuWnd.cpp" />
+    <ClCompile Include="MinecraftDownloadRecordPersistence.cpp" />
+    <ClCompile Include="MinecraftLauncher.cpp" />
+    <ClCompile Include="MinecraftProcessInfo.cpp" />
+    <ClCompile Include="MinecraftUserIdentityFactory.cpp" />
+    <ClCompile Include="CraftBoxPageEventHandler.cpp" />
+    <ClCompile Include="ModifyNoteWnd.cpp" />
+    <ClCompile Include="OfficialMinecraftDownloadItemController.cpp" />
+    <ClCompile Include="QuitConfirmWnd.cpp" />
+    <ClCompile Include="ServerConfig.cpp" />
+    <ClCompile Include="ui_helper.cpp" />
+    <ClCompile Include="UpdateSuccessNotifyWnd.cpp" />
+    <ClCompile Include="UserJoinedServerInfo.cpp" />
+    <ClCompile Include="WebPageWnd.cpp" />
+    <ClCompile Include="WindowFinder.cpp" />
+    <ClCompile Include="ShadowEdge.cpp" />
+    <ClCompile Include="ShellNotifyIcon.cpp" />
+    <ClCompile Include="YggdrasilPersistence.cpp" />
+    <ClCompile Include="UserAcountPersistence.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\base\base.vcxproj">
+      <Project>{76c61353-83d2-4112-b520-e65212a13d8a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DataReport\DataReport.vcxproj">
+      <Project>{4d784aac-ccc2-4f73-8777-d71fcbb1f8ec}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\IPCWindow\IPCWindow.vcxproj">
+      <Project>{b1a87d5f-dbaf-4040-bab5-8dcaaadf93fa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\minecraft_common\minecraft_common.vcxproj">
+      <Project>{12ac9e77-a0c2-4731-b304-47b9d38864a3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\cryptopp563\cryptlib.vcxproj">
+      <Project>{3423ec9a-52e4-4a4d-9753-edebc38785ef}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\curlcpp\curlcpp.vcxproj">
+      <Project>{666952b8-5188-454d-9b2a-8fa0b7348702}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\DuiLib\DuiLib_Static.vcxproj">
+      <Project>{e106acd7-4e53-4aee-942b-d0dd426db34e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\glog\libglog.vcxproj">
+      <Project>{772c2111-bbbf-49e6-b912-198a7f7a88e5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\libcurl\libcurl.vcxproj">
+      <Project>{da6f56b4-06a4-441d-ad70-ac5a7d51fadb}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppConfig.h" />
+    <ClInclude Include="AppUpdate.h" />
+    <ClInclude Include="BaseShadowWindow.h" />
+    <ClInclude Include="BaseWindow.h" />
+    <ClInclude Include="BoxUserInfoManager.h" />
+    <ClInclude Include="BoxUserInfoRequest.h" />
+    <ClInclude Include="ConfigWindow.h" />
+    <ClInclude Include="CraftBoxHelperStuff.h" />
+    <ClInclude Include="CraftBoxTokenFetcher.h" />
+    <ClInclude Include="CraftBoxUserJoinServerInfos.h" />
+    <ClInclude Include="DefaultServerList.h" />
+    <ClInclude Include="DownloadConfirmWnd.h" />
+    <ClInclude Include="DownloadingItemController.h" />
+    <ClInclude Include="GameCrashReportWnd.h" />
+    <ClInclude Include="HandleDataCallback.h" />
+    <ClInclude Include="IntergrationDownloadItemController.h" />
+    <ClInclude Include="IntergrationDownloadRecordPersistence.h" />
+    <ClInclude Include="IntergrationVersionManager.h" />
+    <ClInclude Include="JavaComboMenu.h" />
+    <ClInclude Include="JavaEnvironment.h" />
+    <ClInclude Include="JavaRecordPersistence.h" />
+    <ClInclude Include="LoadingWnd.h" />
+    <ClInclude Include="LocalGameComboMenu.h" />
+    <ClInclude Include="LocalGameListContainerElementUI.h" />
+    <ClInclude Include="LocalGameRecordPersistence.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MainWnd.h" />
+    <ClInclude Include="MenuWnd.h" />
+    <ClInclude Include="MinecraftDownloadRecordPersistence.h" />
+    <ClInclude Include="MinecraftLauncher.h" />
+    <ClInclude Include="MinecraftProcessInfo.h" />
+    <ClInclude Include="MinecraftUserIdentityFactory.h" />
+    <ClInclude Include="ModifyNoteWnd.h" />
+    <ClInclude Include="OfficialMinecraftDownloadItemController.h" />
+    <ClInclude Include="QuitConfirmWnd.h" />
+    <ClInclude Include="ServerConfig.h" />
+    <ClInclude Include="ui_helper.h" />
+    <ClInclude Include="UpdateSuccessNotifyWnd.h" />
+    <ClInclude Include="UserJoinedServerInfo.h" />
+    <ClInclude Include="WebPageWnd.h" />
+    <ClInclude Include="WindowFinder.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="CraftBoxPageEventHandler.h" />
+    <ClInclude Include="ShadowEdge.h" />
+    <ClInclude Include="ShellNotifyIcon.h" />
+    <ClInclude Include="YggdrasilPersistence.h" />
+    <ClInclude Include="UserAcountPersistence.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="craftbox.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\7z.dll" />
+    <None Include="resources\7z.exe" />
+    <None Include="resources\asm-5.1.jar" />
+    <None Include="resources\craftboxhelper.7z" />
+    <None Include="resources\CraftBoxHelperMod.7z" />
+    <None Include="resources\java_checker.jar" />
+    <None Include="resources\mccrack.7z" />
+    <None Include="resources\MCVersionDetect.jar" />
+    <None Include="resources\MinecraftServerList.7z" />
+    <None Include="skin\skin.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\dl_failed.mp3" />
+    <Media Include="resources\dl_success.mp3" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0FFFAEF-9C11-45AC-873A-6834C7FC3814}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>craftbox</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)out\$(Configuration)\$(PlatformTarget)</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GOOGLE_GLOG_DLL_DECL=;WIN32;UILIB_STATIC;CURL_STATICLIB;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Dnsapi.lib;version.lib;ws2_32.lib;Urlmon.lib;Wininet.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GOOGLE_GLOG_DLL_DECL=;WIN32;UILIB_STATIC;CURL_STATICLIB;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Dnsapi.lib;version.lib;ws2_32.lib;Urlmon.lib;Wininet.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GOOGLE_GLOG_DLL_DECL=;WIN32;UILIB_STATIC;CURL_STATICLIB;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Dnsapi.lib;version.lib;ws2_32.lib;Urlmon.lib;Wininet.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GOOGLE_GLOG_DLL_DECL=;WIN32;UILIB_STATIC;CURL_STATICLIB;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)third_party/glog/src/windows;$(SolutionDir)third_party/rapidjson;$(SolutionDir)third_party;$(SolutionDir)third_party/libcurl/include;$(SolutionDir)third_party/curlcpp/include;$(SolutionDir)third_party/cryptopp563;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Dnsapi.lib;version.lib;ws2_32.lib;Urlmon.lib;Wininet.lib;Wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="800,600">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<LocalGameListContainerElement pos="0,0,0,30">
+		<HorizontalLayout childvalign="vcenter">
+			<HorizontalLayout pos="0,0,200,16" childvalign="vcenter" childalign="center" childpadding="6">
+				<Label name="name" maxwidth="178" textpadding="5,0,0,0" font="1" textcolor="#FF333333"/>
+				<Button name="note" pos="0,0,16,16" tooltip="修改备注" font="1" textcolor="#FF666666" normalimage="note_normal.png" hotimage="note_hover.png" pushedimage="note_hover.png"/>
+			</HorizontalLayout>
+			<Label name="path" width="500" endellipsis="true" textpadding="5,0,0,0" font="1" textcolor="#FF666666"/>
+			<HorizontalLayout pos="0,0,0,16" childvalign="vcenter" childalign="center" childpadding="5">
+				<HorizontalLayout />
+					<Button name="open_dir" pos="0,0,16,16" tooltip="打开游戏目录" font="1" textcolor="#FF666666" normalimage="open_dir_normal.png" hotimage="open_dir_hover.png" pushedimage="open_dir_hover.png"/>
+					<Button name="remove" pos="0,0,16,16" tooltip="从列表中移除(不会删除任何游戏文件)" font="1" textcolor="#FF666666" normalimage="delete_normal.png" hotimage="delete_hover.png" pushedimage="delete_hover.png"/>
+				<HorizontalLayout />
+			</HorizontalLayout>
+		</HorizontalLayout >
+	</LocalGameListContainerElement>
+</Window>
+

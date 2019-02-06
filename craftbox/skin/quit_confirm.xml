@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="350,250">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="12" bold="true"/>
+	<VerticalLayout bkcolor="#FFFAFAFA" bordercolor="#FF768D9B" bordersize="1" inset="1,10,1,1">
+		<Button name="Close" pos="320,15,336,31" float="true" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+		<HorizontalLayout pos="0,0,0,30" padding="0,0,200,0">
+			<Label padding="20,0,0,0" pos="0,0,80,0" text="关闭提示" font="0" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<Label pos="0,0,0,1" padding="0,7,0,0" bkcolor="#FFE1E1E2"/>
+		<VerticalLayout pos="0,0,0,110" padding="20,20,0,0" childvalign="vcenter" childpadding="10">
+			<Label text="关闭主面板时: " font="1" textcolor="#FF333333"/>
+			<Option name="min_on_close" pos="0,0,225,20" selected="true" align="center" valign="vcenter" text="隐藏到任务栏通知区域, 不退出程序" font="1" textcolor="#FF333333" group="true" normalimage="file='checkbox_normal.png' dest='0,2,16,18' fade=''" selectedimage="file='checkbox_hover.png' dest='0,2,16,18' fade=''"/>
+			<Option name="quit_app_on_close" text="退出程序" pos="0,0,85,20" align="center" valign="vcenter" font="1" textcolor="#FF333333" group="true" normalimage="file='checkbox_normal.png' dest='0,2,16,18' fade=''" selectedimage="file='checkbox_hover.png' dest='0,2,16,18' fade=''"/>
+		</VerticalLayout>
+		<Label pos="0,0,0,1" padding="0,10,0,0" bkcolor="#FFE1E1E2"/>
+		<HorizontalLayout pos="0,0,350,0" bkcolor="#FFF5F5F7" childpadding="5" childalign="right" childvalign="vcenter">
+			<Option name="alywas" font="1" textcolor="#FF111111" padding="20,0,0,0" pos="0,0,88,18" text="不再提示" normalimage="file='checkbox_unselect.png' dest='0,1,16,17' fade=''" selectedimage="file='checkbox_select.png' dest='0,1,16,17' fade=''"/>
+			<Button name="ok" padding="150,0,0,0" pos="0,0,60,26" bkcolor="#FF0C73C2" hotbkcolor="#FF1167A8" pushedbkcolor="#FF1167A8" text="确定" font="2" textcolor="#FFFFFFFF"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

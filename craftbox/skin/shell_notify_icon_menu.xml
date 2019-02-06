@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="130,96">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<HorizontalLayout bkcolor="#FFFAFAFC">
+		<List padding="10,10,0,0" bkcolor="#FFFAFAFC" itemselectedbkcolor="#FFEDEDEF" itemhotbkcolor="#FFEDEDEF" itemdisabledbkcolor="#FFEDEDEF">
+			<ListHeader pos="0,0,0,1" sepwidth="2" sepimm="true"/>
+			<ListContainerElement name="show_main_wnd" pos="0,0,0,36">
+				<HorizontalLayout inset="10,0,0,0">
+					<VerticalLayout pos="0,0,15,0">
+					</VerticalLayout>
+					<VerticalLayout >
+						<VerticalLayout />
+						<Label text="显示主窗口" mouse="false" font="1" textcolor="#FF333333"/>
+						<VerticalLayout />
+					</VerticalLayout >
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="quit_app" pos="0,0,0,36">
+				<HorizontalLayout inset="10,0,0,0">
+					<VerticalLayout pos="0,0,15,0">
+					</VerticalLayout>
+					<VerticalLayout >
+						<VerticalLayout />
+						<Label text="退出" mouse="false" font="1" textcolor="#FF333333"/>
+						<VerticalLayout />
+					</VerticalLayout >
+				</HorizontalLayout>
+			</ListContainerElement>
+		</List>
+	</HorizontalLayout>
+</Window>
+

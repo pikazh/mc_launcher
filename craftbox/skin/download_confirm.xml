@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="400,280">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<VerticalLayout bkcolor="#FFFAFAFA" bordercolor="#FF768D9B" bordersize="1" inset="1,10,1,1">
+		<Button name="Close" pos="370,15,386,31" float="true" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+		<HorizontalLayout pos="0,0,0,30" padding="0,0,50,0">
+			<Label padding="20,0,0,0" name="title" text="下载游戏" font="0" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<Label pos="0,0,0,1" padding="0,7,0,0" bkcolor="#FFE1E1E2"/>
+		<HorizontalLayout pos="0,0,0,20" padding="20,20,0,0" childvalign="vcenter">
+			<Option pos="0,0,150,16" name="dl_in_exe_dir" normalimage="file='checkbox_normal.png' dest='0,0,16,16' fade=''" hotimage="file='checkbox_normal.png' dest='0,0,16,16' fade=''" group="true" selected="true" selectedimage="file='checkbox_hover.png' dest='0,0,16,16' fade=''" selectedhotimage="file='checkbox_hover.png' dest='0,0,16,16' fade=''" textpadding="0,0,0,0" font="1" text="下载到程序所在目录:" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<VerticalLayout pos="0,0,0,36">
+			<Label name="exe_dir" multiline="true" endellipsis="true" padding="40,0,20,0" font="1" textcolor="#FF666666"/>
+		</VerticalLayout>
+		<HorizontalLayout pos="0,0,0,30" padding="20,0,0,0" childvalign="vcenter">
+			<Option pos="0,0,120,16" name="dl_in_spedific_dir" normalimage="file='checkbox_normal.png' dest='0,0,16,16' fade=''" hotimage="file='checkbox_normal.png' dest='0,0,16,16' fade=''" group="true" selectedimage="file='checkbox_hover.png' dest='0,0,16,16' fade=''" selectedhotimage="file='checkbox_hover.png' dest='0,0,16,16' fade=''" text="指定下载路径:" textpadding="0,0,0,0" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,30">
+			<Edit name="download_path" pos="0,0,280,26" padding="40,0,0,0" bordercolor="#FFE1E1E2" bordersize="1" font="1" textcolor="#FF333333"/>
+			<Button name="select_dl_path" pos="0,0,60,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="浏览..." font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,28" padding="40,0,0,0" >
+			<Label name="tips" multiline="true" showhtml="true" text="友情提示: 不需要在下载路径后面加上&quot;\.minecraft&quot;路径名,<n>下载程序会自动添加" font="1" endellipsis="true" textcolor="#FF666666"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,30" padding="250,20,0,0" childpadding="5" childalign="right">
+			<Button name="ok" pos="0,0,60,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="下载" font="1" textcolor="#FF333333"/>
+			<Button name="cancel" pos="0,0,60,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="取消" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+
+
+

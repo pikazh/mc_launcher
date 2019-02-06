@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="YggdrasilAuthentication">
+      <UniqueIdentifier>{1eb2b58d-38f5-46fd-bef2-c9d911fe8f14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MinecraftDownload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftCommon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftInstanceSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftInstanceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaFinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftProfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilAuthentication.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadGameFileTask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaDownload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipCmdProxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilRequest.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilAuthenticate.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilRefresh.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilValidate.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilSignout.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="YggdrasilInvalidate.cpp">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClCompile>
+    <ClCompile Include="OfficialMinecraftVersions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntergrationMinecraftVersions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftVersionDetecter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinecraftDownload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftInstanceSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftInstanceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaFinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftProfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilAuthentication.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadGameFileTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaDownload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipCmdProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilRequest.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilAuthenticate.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilRefresh.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilValidate.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilSignout.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="YggdrasilInvalidate.h">
+      <Filter>YggdrasilAuthentication</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftUserIdentity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficialMinecraftVersions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntergrationMinecraftVersions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftVersionDetecter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

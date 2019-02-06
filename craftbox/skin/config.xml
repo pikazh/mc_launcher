@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="600,420" showdirty="false">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="12" bold="true"/>
+	<VerticalLayout bkcolor="#FFFAFAFA" bordercolor="#FF768D9B" bordersize="1" inset="1,20,1,1">
+		<Button name="Close" pos="570,10,586,26" float="true" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+		<HorizontalLayout pos="0,0,0,30"  padding="40,0,40,0" >
+			<HorizontalLayout />
+			<HorizontalLayout pos="0,0,210,0" childpadding="10">
+			    <Option name="game_setting_option" selected="true" pos="0,0,100,30" bordercolor="#FFE1E1E2" focusbordercolor="#FF737373" bordersize="1" text="游戏设置" font="1" textcolor="#FF666666" group="1" selectedbkcolor="#FF737373" selectedtextcolor="#FFFAFAFA" />
+				<Option name="app_setting_option" pos="0,0,100,30" bordercolor="#FFE1E1E2" focusbordercolor="#FF737373" bordersize="1" text="软件设置" font="1" textcolor="#FF666666" group="1" selectedbkcolor="#FF737373" selectedtextcolor="#FFFAFAFA" />
+			</HorizontalLayout>
+			<HorizontalLayout />
+		</HorizontalLayout>
+		<Label pos="0,0,0,1" padding="0,-1,0,0" bkcolor="#FF737373"/>
+		<TabLayout name="pages" pos="0,0,0,300" selectedid="0">
+			<VerticalLayout padding="25,0,25,0">
+				<HorizontalLayout pos="0,0,0,30" padding="0,32,0,0" childvalign="vcenter">
+					<Label text="账号设置: " font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+				<HorizontalLayout pos="0,0,0,40" childvalign="vcenter" childpadding="10">
+					<VerticalLayout pos="0,0,86,26" childvalign="vcenter">
+						<Combo name="game_account_type" text="游戏账号" pos="0,0,86,26" bordercolor="#00E1E1E2" bordersize="1" font="1" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" textcolor="#FF333333" align="left" itemtextpadding="7,0,0,0" normalimage="file='config_arrow.png' dest='72,9,80,15' fade=''" hotimage="file='config_arrow.png' dest='72,9,80,15' fade=''" pushedimage="file='config_arrow.png' dest='72,9,80,15' fade=''" itemfont="1" vscrollbar="true" itemtextcolor="#FF333333" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6" >
+							<ListLabelElement text="离线模式" />
+							<ListLabelElement text="创世神验证"/>
+							<ListLabelElement text="正版验证"/>
+						</Combo>
+					</VerticalLayout >
+					<VerticalLayout pos="0,0,0,30" childvalign="vcenter">
+							<TabLayout name="game_account_type_pages" childvalign="vcenter">
+								<HorizontalLayout childvalign="vcenter" childpadding="10">
+									<Edit name="offline_player_name" showhtml="true" pos="0,0,140,26" bordercolor="#FFE1E1E2" bordersize="1" font="1" textcolor="#FF333333"/>
+								</HorizontalLayout>
+								<HorizontalLayout childvalign="vcenter" childpadding="5">
+									<Label pos="0,0,38,0" text="服务器" align="right" font="1" textcolor="#FF333333"/>
+									<Combo name="craft_servers" pos="0,0,140,26" bordercolor="#00E1E1E2" bordersize="1" font="1" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" textcolor="#FF333333" align="left" textpadding="1,1,1,1" itemtextpadding="6,1,1,1" normalimage="file='config_arrow.png' dest='128,9,136,15' fade=''" hotimage="file='config_arrow.png' dest='128,9,136,15' fade=''" pushedimage="file='config_arrow.png' dest='128,9,136,15' fade=''" itemfont="1" itemtextcolor="#FF333333" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6" vscrollbar="true"/>
+									<Label pos="0,0,38,0" text="角色名" align="right" font="1" textcolor="#FF333333"/>
+									<Combo name="craft_players" pos="0,0,140,26" bordercolor="#00E1E1E2" bordersize="1" font="1" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" textcolor="#FF333333" align="left" textpadding="1,1,1,1" itemtextpadding="6,1,1,1" normalimage="file='config_arrow.png' dest='128,9,136,15' fade=''" hotimage="file='config_arrow.png' dest='128,9,136,15' fade=''" pushedimage="file='config_arrow.png' dest='128,9,136,15' fade=''" itemfont="1" itemtextcolor="#FF333333" itembkcolor="#FFF5F5F7" itemaltbk="true" itemselectedbkcolor="#FFEBECE6" itemhotbkcolor="#FFEBECE6" vscrollbar="true"/>
+								</HorizontalLayout>
+									<TabLayout name="officail_login_tab" childvalign="vcenter">
+										<HorizontalLayout childvalign="vcenter" childpadding="10">
+											<Edit name="email_addr" pos="0,0,140,26" bordercolor="#FFE1E1E2" bordersize="1" font="1" textcolor="#FF333333"/>
+											<Edit name="password" pos="0,0,140,26" bordercolor="#FFE1E1E2" bordersize="1" font="1" textcolor="#FF333333"/>
+											<Button name="official_login" text="登录" font="1" textcolor="#FF333333" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1"/>
+										</HorizontalLayout>
+										<HorizontalLayout childvalign="vcenter" childpadding="10">
+											<Label text="认证中, 请稍后..." padding="5,0,0,0" font="1" textcolor="#FF333333"/>
+										</HorizontalLayout>
+										<HorizontalLayout childvalign="vcenter" childpadding="10">
+											<Label name="official_player_name" text="角色名字: " padding="5,0,0,0" font="1" textcolor="#FF333333"/>
+											<Button name="official_logout" pos="0,0,40,26" text="注销" font="3" textcolor="#FF80BA5A" hottextcolor="#FF80BA5A" selectedtextcolor="#FF80BA5A" focusedtextcolor="#FF80BA5A"/>
+										</HorizontalLayout>
+									</TabLayout>
+							</TabLayout>
+					</VerticalLayout>
+				</HorizontalLayout>
+				<HorizontalLayout pos="0,0,0,30" padding="0,20,0,0" childvalign="vcenter">
+					<Label text="只支持Java1.7以及更高的版本" font="1" textcolor="#FF666666"/>
+				</HorizontalLayout>
+				<HorizontalLayout pos="0,0,0,30" childvalign="vcenter">
+					<Label pos="0,0,60,0" text="Java路径: " font="1" textcolor="#FF333333"/>
+					<Button name="select_java_btn" pos="0,0,400,26" padding="0,0,10,0" align="left" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" endellipsis="true" font="1" textcolor="#FF333333" textpadding="5,0,25,0" normalimage="file='config_arrow.png' dest='383,10,391,16' fade=''" hotimage="file='config_arrow.png' dest='383,10,391,16' fade=''" pushedimage="file='config_arrow.png' dest='383,10,391,16' fade=''"/>
+					<Button name="java_operator" pos="0,0,0,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="添加或下载" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+				<HorizontalLayout pos="0,0,0,15" padding="0,5,0,0" childvalign="vcenter">
+					<Label name="java_version" padding="60,0,0,0" text="版本：" font="1" textcolor="#FF666666"/>
+					<Label name="java_searching_tips" pos="475,0,535,15" float="true" text="查找中... " align="center" font="1" textcolor="#FF666666"/>
+				</HorizontalLayout>
+				<HorizontalLayout name="java_mem_setting_layout" pos="0,0,0,30" padding="0,30,0,0" childvalign="vcenter">
+					<Label pos="0,0,85,0" text="最大可用内存: " font="1" textcolor="#FF333333"/>
+					<Edit name="max_memory" pos="0,0,80,26" padding="0,0,5,0" bordercolor="#FFE1E1E2" bordersize="1" font="1" textcolor="#FF333333"/>
+					<Label pos="0,0,60,0" text="MB" font="1" textcolor="#FF333333"/>
+					<Label name="sys_memory" text="系统物理内存: " font="1" textcolor="#FF666666"/>
+				</HorizontalLayout>
+				<HorizontalLayout name="java_download_tips_layout" pos="0,0,0,20" padding="0,40,0,0" childvalign="vcenter">
+					<Label text="下载过程你可以关闭该设置对话框进行其他操作" font="1" textcolor="#FF666666"/>
+				</HorizontalLayout>
+				<HorizontalLayout name="java_download_layout" pos="0,0,0,30" childvalign="vcenter">
+					<Label pos="0,0,60,0" text="下载进度: " font="1" textcolor="#FF333333"/>
+					<Progress name="java_download_progress" pos="0,0,400,20" padding="0,3,10,0" bordercolor="#FFE1E1E2" bordersize="1" text="text" valign="vcenter" align="center" font="1" textcolor="#FF666666" value="40" foreimage="progress_fore.png"/>
+					<Button name="cancel_java_download" pos="0,0,0,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="取消下载" font="1" textcolor="#FF333333"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+			<VerticalLayout padding="27,32,15,0" childalign="left" childvalign="vcenter" childpadding="10">
+				<Label text="关闭主面板时: " font="1" textcolor="#FF333333"/>
+				<Option name="min_on_close" pos="0,0,225,20" align="center" valign="vcenter" text="隐藏到任务栏通知区域, 不退出程序" font="1" textcolor="#FF333333" group="2" normalimage="file='checkbox_normal.png' dest='0,2,16,18' fade=''" hotimage="file='checkbox_normal.png' dest='0,2,16,18' fade=''" selectedimage="file='checkbox_hover.png' dest='0,2,16,18' fade=''"/>
+				<Option name="quit_app_on_close" text="退出程序" pos="0,0,85,20" align="center" valign="vcenter" font="1" textcolor="#FF333333" group="2" normalimage="file='checkbox_normal.png' dest='0,2,16,18' fade=''" hotimage="file='checkbox_normal.png' dest='0,2,16,18' fade=''" selectedimage="file='checkbox_hover.png' dest='0,2,16,18' fade=''"/>
+			</VerticalLayout>
+		</TabLayout>
+		<HorizontalLayout  childvalign="vcenter" childalign="center">
+			<Button name="ok_btn" pos="0,0,80,26" padding="480,0,0,0" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="保存" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+

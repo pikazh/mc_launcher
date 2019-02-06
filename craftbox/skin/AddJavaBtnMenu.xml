@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="160,153">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<HorizontalLayout bkcolor="#FFFAFAFC">
+		<List padding="0,5,0,0" bkcolor="#FFFAFAFC" itemselectedbkcolor="#FFEDEDEF" itemhotbkcolor="#FFEDEDEF" itemdisabledbkcolor="#FFEDEDEF">
+			<ListHeader pos="0,0,0,1" sepwidth="2" sepimm="true"/>
+			<ListContainerElement name="scan_local_java" pos="0,0,0,35" childvalign="vcenter">
+				<Label text="自动扫描本机Java" align="center" mouse="false" font="1" textcolor="#FF333333"/>
+			</ListContainerElement>
+			<ListContainerElement name="manual_add_java_path" pos="0,0,0,35">
+				<Label text="手动添加Java路径" align="center" mouse="false" font="1" textcolor="#FF333333"/>
+			</ListContainerElement>
+			<ListContainerElement name="download_java7" pos="0,0,0,35">
+				<Label text="自动下载Java1.7" align="center" mouse="false" font="1" textcolor="#FF333333"/>
+			</ListContainerElement>
+			<ListContainerElement name="download_java8" pos="0,0,0,35">
+				<Label text="自动下载Java1.8" align="center" mouse="false" font="1" textcolor="#FF333333"/>
+			</ListContainerElement>
+		</List>
+	</HorizontalLayout>
+</Window>
+

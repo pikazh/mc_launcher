@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="400,280" showdirty="false">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<VerticalLayout bkcolor="#FFFAFAFA" bordercolor="#FF768D9B" bordersize="1" inset="1,10,1,1">
+		<Button name="Close" pos="370,15,386,31" float="true" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+		<HorizontalLayout pos="0,0,0,30" padding="0,0,200,0">
+			<Label padding="20,0,0,0" pos="0,0,80,0" text="修改备注" font="0" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<Label pos="0,0,0,1" padding="0,7,0,0" bkcolor="#FFE1E1E2"/>
+		<HorizontalLayout pos="0,0,0,30" padding="20,20,0,0" childvalign="vcenter">
+			<Label name="title" pos="0,0,360,0" font="1" endellipsis="true" textcolor="#FF666666"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,30" padding="20,0,0,0" childvalign="vcenter" childpadding="5">
+			<Label pos="0,0,30,0" text="备注:" font="1" textcolor="#FF666666"/>
+			<Edit name="note_edit" pos="0,0,280,26" bordercolor="#FFE1E1E2" bordersize="1" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,30" padding="20,10,0,0" childvalign="vcenter">
+			<Label text="游戏路径: " font="1" endellipsis="true" textcolor="#FF666666"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,50" padding="20,0,0,0" childvalign="vcenter">
+			<Label name="path" font="1" pos="0,0,360,0" endellipsis="true" textcolor="#FF666666"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,30" padding="250,20,0,0" childpadding="5" childalign="right">
+			<Button name="ok" pos="0,0,60,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="确定" font="1" textcolor="#FF333333"/>
+			<Button name="cancel" pos="0,0,60,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="取消" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="500,320">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<Default name="VScrollBar" value="width=&quot;10&quot; showbutton1=&quot;false&quot; showbutton2=&quot;false&quot; thumbnormalimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbhotimage=&quot;file='scroll_new.png' source='0,0,1,1' &quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,0,1,1' &quot; thumbdisabledimage=&quot;file='scroll.png' source='0,0,1,1' &quot;"/>
+	<VerticalLayout bkcolor="#FFFAFAFA" bordercolor="#FF768D9B" bordersize="1" inset="1,10,1,1">
+		<Button name="Close" pos="470,15,486,31" float="true" normalimage="cancel_normal.png" hotimage="cancel_hover.png" pushedimage="cancel_hover.png"/>
+		<HorizontalLayout pos="0,0,0,30" padding="0,0,100,0">
+			<Label padding="20,0,0,0" text="游戏崩溃了..." font="0" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<Label pos="0,0,0,1" padding="0,7,0,0" bkcolor="#FFE1E1E2"/>
+		<HorizontalLayout pos="0,0,0,200" padding="20,10,20,0" childvalign="vcenter" childpadding="20">
+			<Button name="tip_pic" enabled="false" pos="0,0,126,156" normalimage="crash.png" hotimage="crash.png" pushedimage="crash.png" disabledimage="crash.png"/>
+			<RichEdit name="note_edit" pos="0,0,310,180" wantreturn="true" rich="true" vscrollbar="true" textpadding="5,0,5,0" bordersize="1" bordercolor="#FFE1E1E2" multiline="true" readonly="true" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,60" childpadding="10" childalign="right" childvalign="vcenter">
+			<Button name="open_log_dir" padding="265,0,0,0" pos="0,0,120,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="打开游戏日志目录" font="1" textcolor="#FF333333"/>
+			<Button name="ok" pos="0,0,80,26" bordercolor="#FFE1E1E2" hotbkcolor="#FFF5F5F7" pushedbkcolor="#FFF5F5F7" bordersize="1" text="我知道了" font="1" textcolor="#FF333333"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

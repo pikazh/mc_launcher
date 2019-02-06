@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="160,95">
+	<Font id="0" name="微软雅黑" size="14" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<Font id="2" name="微软雅黑" size="14"/>
+	<HorizontalLayout bkcolor="#FFFAFAFC">
+		<List padding="8,8,8,0" bkcolor="#FFFAFAFC" itemselectedbkcolor="#FFEDEDEF" itemhotbkcolor="#FFEDEDEF" itemdisabledbkcolor="#FFEDEDEF">
+			<ListHeader pos="0,0,0,1" sepwidth="2" sepimm="true"/>
+			<ListContainerElement name="scan_local_game" pos="0,0,0,36">
+				<HorizontalLayout inset="10,0,0,0">
+					<VerticalLayout pos="0,0,15,0">
+					</VerticalLayout>
+					<VerticalLayout >
+						<VerticalLayout />
+						<Label text="自动扫描本地游戏" mouse="false" font="1" textcolor="#FF333333"/>
+						<VerticalLayout />
+					</VerticalLayout >
+				</HorizontalLayout>
+			</ListContainerElement>
+			<ListContainerElement name="manual_add_game_dir" pos="0,0,0,36">
+				<HorizontalLayout inset="10,0,0,0">
+					<VerticalLayout pos="0,0,15,0">
+					</VerticalLayout>
+					<VerticalLayout >
+						<VerticalLayout />
+						<Label text="手动添加路径" mouse="false" font="1" textcolor="#FF333333"/>
+						<VerticalLayout />
+					</VerticalLayout >
+				</HorizontalLayout>
+			</ListContainerElement>
+		</List>
+	</HorizontalLayout>
+</Window>
+
